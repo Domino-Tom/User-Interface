@@ -64,3 +64,134 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 875px;
+	margin: 0 auto;
+}
+
+
+
+.nav-bar nav {
+	display: inline-block;
+	width: 76%;
+}
+
+.nav-bar nav ul {
+	position: relative;
+	top: -12px;
+}
+
+.nav-bar li {
+	display: inline-block;
+	font-size: .9rem;
+	padding-top: 40px;
+	padding-right: 62px;
+	color: #999999;
+}
+
+.logo-div {
+	display: inline-block;
+	width: auto;
+}
+
+.logo-div img {
+	width: 100%;
+	height: auto;
+	padding-top: 27px;
+	padding-left: 23px;
+}
+
+.call-to-action {
+	border-bottom: 1px solid black;
+	padding-bottom: 70px;
+	margin-top: 67px;
+	margin-bottom: 35px;
+}
+
+.cta-main {
+	display: inline-block;
+	height: auto;
+	width: 56%;
+}
+
+.cta-main h1 {
+	font-size: 80px;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: -75px;
+	left: -50px;
+}
+
+.cta-main a {
+	display: block;
+	width: 175px;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px 0;
+	border: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+	top: -60px;
+	left: -50px;
+}
+
+.cta-img {
+	display: inline-block;
+	width: 43.4%;
+	position: relative;
+	left: 2px;
+}
+
+.cta-img img {
+	width: 100%;
+	height: auto;
+}
+
+.info {
+	border-bottom: 1px solid black;
+	margin-bottom: 45px;
+}
+
+.info-top, .info-middle, .info-bottom {
+	margin-bottom: 45px;
+}
+
+.info-top section {
+	display: inline-block;
+	font-size: 17px;
+	width: 47%;
+}
+
+.features {
+	margin-right: 40px;
+}
+
+.info-bottom section {
+	display: inline-block;
+	font-size: 17px;
+	width: 30%;
+}
+
+.services, .products {
+	margin-right: 40px;
+}
+
+.contact {
+	margin-bottom: 45px;
+}
+
+.contact li {
+	margin-bottom: 15px;
+	width: 140px;
+}
+
+footer {
+	text-align: center;
+	font-size: 14px;
+}
+
